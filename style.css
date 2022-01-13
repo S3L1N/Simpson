@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #025284;
+    font-family: sans-serif;
+    color: white;
+}
+
+/*             Beginning Container             */
+.container {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+p{
+    text-align: justify;
+    font-family: sans-serif;
+}
+/*                End Container                */
+
+/*              Beginning  Header              */
+h1{
+    background-color: #6ed0f7;
+    text-align: center;
+    padding: 10px;
+}
+.simps {
+    width: 100%;
+} 
+/*                 End  Header                 */
+
+/*               Beginning  Main               */
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 10px 40px 10px;
+}
+/*                  End  Main                  */
+
+/*              Beginning  NavBar              */
+nav{
+    background-color: royalblue;
+    width: 18%;
+    height: fit-content;
+    list-style-type: none;
+    padding: 20px;
+}
+a{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+/*                 End Nav Bar                 */
+
+/*              Beginning Article              */
+article{
+    white-space: pre-line;
+    color: black;
+    width: 60%;
+}
+h2{
+    color: rgb(245, 223, 27);
+}
+/*                 End Article                 */
+
+/*               Beginning  Aside              */
+aside{
+    width:20%;
+    background-color: royalblue;
+    text-align: center;
+}
+.matt{
+    width: 80%;
+    margin:auto;
+}
+figcaption{
+    display: block;
+    white-space: pre-line
+}
+.matt1{
+    margin: 10px 10px 0 0px;
+    width: 100%;
+    border:1px solid white;
+}
+/*                  End Aside                  */
+
+/*              Beginning  Footer              */
+footer{
+    background-color: rgb(7, 7, 134);
+    text-align: center;
+    padding: 10px;
+}
+/*                 End  Footer                 */
+
+
+/*          Beginning Max Width 825px          */
+@media all and (max-width: 767px){  
+
+.container{
+    width: 100%;
+    
+}
+
+h1{
+    font-size: 100%;
+    padding: 10px;
+    background-color:#6ed0f7;
+}
+
+main{
+    flex-direction: column;
+}
+
+nav, article {
+    width: 100%;
+    font-family: justify;
+    font-size: 12px;
+}
+
+nav{
+    background-color: #ffd71f;
+    padding: 5px;
+}
+
+aside{
+    width: 100%;
+    font-size: 12px;
+}
+
+.matt{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+
+.matt1{
+    width: 30%;
+    margin:0 10px 0 0;
+}
+
+figcaption{
+    white-space: normal;
+    width: 70%;
+}
+
+footer{
+    font-size: 75%;
+    padding: auto;
+}
+
+
+}
